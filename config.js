@@ -967,7 +967,12 @@ var config = {
 
     // e2ee: {
     //   labels,
-    //   externallyManagedKey: false
+    //   externallyManagedKey: false,
+    //   mls: {
+    //     startEnabled: true,
+    //     maxClients: 999,
+    //     proxyAllocator: 'https://10.60.16.144:14200',
+    //   },
     // },
 
     // Options related to end-to-end (participant to participant) ping.
